@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        style="@style/AppTheme.NoActionBar">
+
+
+    <TimePicker android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:ignore="MissingConstraints"
+                android:id="@+id/timePicker"/>
+
+    <android.support.design.widget.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/et_title"
+            android:textSize="24sp"
+            android:layout_marginTop="50dp"/>
+
+    <LinearLayout android:layout_width="wrap_content"
+                  android:layout_height="wrap_content">
+
+        <Button
+                android:text="Cancel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn_cancel"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteY="533dp"
+                tools:layout_editor_absoluteX="25dp"
+                android:layout_marginRight="200dp"
+                android:layout_marginTop="100dp"
+                android:layout_marginLeft="10dp"/>
+        <Button
+                android:text="Save"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="100dp"
+                android:id="@+id/btn_save"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteY="533dp"
+                tools:layout_editor_absoluteX="297dp"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>
